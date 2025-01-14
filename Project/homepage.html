@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickHub Gallery</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="logo.jpg" alt="KickHub Logo" class="logo-image">
+            <div class="logo-text">KickHub</div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+        <div class="header-icons">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='homepage.html'">Product</button>
+            <button onclick="location.href='cart.html'">Checkout</button>
+            <button onclick="location.href='contact.html'">Contact</button>
+        </div>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="categories"></div>
+            <p>Categories</p>
+            <ul>
+                <li><a href="#category1">Men</a></li>
+                <li><a href="#category2">Ladies</a></li>
+                <li><a href="#category3">Junior</a></li>
+                <li><a href="#category4">Kids</a></li>
+            </ul>
+            <p>Brand</p>
+            <ul>
+                <li><a href="#category5">Nike</a></li>
+                <li><a href="#category6">Adidas</a></li>
+                <li><a href="#category7">New Balance</a></li>
+                <li><a href="#category8">Asics</a></li>
+            </ul>
+        </aside>
+        <main>
+            <div class="productlist"></div>
+        </main>
+    </div>
+    <script src="homepage.js"></script>
+</body>
+</html>

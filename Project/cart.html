@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="logo.jpg" alt="KickHub Logo" class="logo-image">
+            <div class="logo-text">KickHub</div>
+        </div>
+        <div class="header-icons">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='homepage.html'">Product</button>
+            <button onclick="location.href='cart.html'">Checkout</button>
+            <button onclick="location.href='contact.html'">Contact</button>
+        </div>
+    </header>
+
+    <div class="checkout-container">
+        <h1 class="checkout-header">My Shopping Cart</h1>
+        <div id="cart-items">
+        </div>
+
+        <div class="summary">
+            <div class="row">
+                <span>Product total:</span>
+                <span id="product-total">RM 0.00</span>
+            </div>
+            <div class="row">
+                <span>Discount (6%):</span>
+                <span id="discount">RM 0.00</span>
+            </div>
+            <div class="row">
+                <span>Delivery fee:</span>
+                <span id="delivery-fee">Free</span>
+            </div>
+            <div class="row total">
+                <span>Total:</span>
+                <span id="total">RM 0.00</span>
+            </div>
+        </div>
+        <button class="confirm-btn" onclick="location.href='homepage.html'">Continue Shopping</button>
+        <button id="confirm-order-btn" class="confirm-btn">Confirm Order</button>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
