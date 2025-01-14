@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.product-detail-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}        
+
+.product-image {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    width: 55%;
+    padding: 20px;
+}
+
+.product-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-info p {
+    font-size: 18px;
+    color: #666;
+    margin: 8px 0;
+}
+
+.product-info .price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.back-btn:hover {
+    background-color: #b68cdd;
+}
+       
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d4a9f0;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.logo-image {
+    max-width: 60px; 
+    max-height: 60px;
+    border-radius: 50%; 
+}
+
+.logo-text {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.header-icons button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 0px 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-icons button:hover {
+    color: #ab14f6;
+}
